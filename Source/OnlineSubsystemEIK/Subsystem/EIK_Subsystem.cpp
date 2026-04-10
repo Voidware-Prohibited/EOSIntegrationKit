@@ -1112,7 +1112,7 @@ void UEIK_Subsystem::OnJoinSessionCompleted(FName SessionName, EOnJoinSessionCom
 		JoinSession_CallbackBP.ExecuteIfBound(false);
 		return;
 	}
-	JoinSession_CallbackBP.ExecuteIfBound(false);
+	// JoinSession_CallbackBP.ExecuteIfBound(false);
 }
 void UEIK_Subsystem::OnDestroySessionCompleted(FName SessionName, bool bWasSuccess) const
 {
